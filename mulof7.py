@@ -4,7 +4,7 @@ while True:
         break
     else:
         if num%7==0:
-            print(out)
+            print(onum)
             num*=1
             num=7
         while True:

@@ -1,13 +1,17 @@
 import random
 
-num = random.randint(100,200)
+name = random.randint(bookmyshow)
 
 while True:
-    a= int(input('enter a number:- '))
-    if a == num:
-        print('congrats you successfully geussed the number',num)
+    a= int(input('enter a name:- '))
+    if a == name:
+        print('Hi,{name} successfully booking seets',name)
         break
-    elif a < num:
-        print('enter greater number')
-    elif a > num:
-        print('enter lesser number')
+    elif a < 200:
+        print('choose daimend class')
+    elif a < 150:
+        print('choose gold class')
+    elif a < 100:
+        print('choose silver class')
+    else:
+        print('select the number of sets:-')
